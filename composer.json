@@ -21,5 +21,15 @@
             "name": "Haze Studio",
             "email": "studio@haze.sk"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HazeStudio\\LaravelGoPaySDK\\GopayServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "HazeStudio\\LaravelGoPaySDK\\Facade"
+            }
+        }
+    }
 }
