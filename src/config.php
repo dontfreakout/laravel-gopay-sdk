@@ -9,5 +9,6 @@ return [
         'sk' => 'SLOVAK',
         'cs' => 'CZECH'
     ], //Map Laravel languages to GoPay\Definition\Language Constants
-    'timeout' => 30
+    'timeout' => 30,
+    'isProductionMode' => false
 ];
